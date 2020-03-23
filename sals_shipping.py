@@ -39,3 +39,8 @@ def print_best_shipping_method(weight):
     method = "drone"
     cost = drone
 
+    print( "The cheapest available method is "+str(method)+" shipping and will cost $"+str(cost))
+        
+print_best_shipping_method(4.8)
+print_best_shipping_method(100)
+
